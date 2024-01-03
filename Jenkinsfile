@@ -8,15 +8,10 @@ pipeline {
 
    stages {
 
-     stage{'Terraform plan') {
+     stage{'Terraform Plan') {
        steps {
          sh 'make'
        }
      }
-
-
-
-
-
    }
 }
