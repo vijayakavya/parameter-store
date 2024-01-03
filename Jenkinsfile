@@ -7,8 +7,7 @@ pipeline {
 
 
    stages {
-
-     stage{'Terraform Plan') {
+     stage('Terraform Plan') {
        steps {
          sh 'make'
        }
